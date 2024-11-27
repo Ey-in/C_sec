@@ -58,12 +58,13 @@ void Encounter::ExecuteCommands(const string& commands) {
     }
 }
 
-/*int main()
+int main()
 {
 	string str;
 	cin >> str;
 	Encounter car1;
 	car1.ExecuteCommands(str);
 	car1.GetPosition();
+    system("pause"); 
 	return 0;
-} */
+} 
